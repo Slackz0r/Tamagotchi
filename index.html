@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tamagotchi</title>
+  </head>
+  <body>
+    <div class="viewer">
+      <header></header>
+      <main>
+        <h1>My Tamagotchis &#10084;</h1>
+        <input
+          type="text"
+          id="name-input"
+          placeholder="Name your pet"
+          required
+        />
+        <select name="animal-type" id="type-input">
+          <option value="" hidden disabled selected>Choose Animal</option>
+          <option value="Cat">Cat</option>
+          <option value="Dog">Dog</option>
+          <option value="Fish">Fish</option>
+        </select>
+        <button id="acquire-button">Acquire Pet</button>
+        <ul id="pet-list"></ul>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
